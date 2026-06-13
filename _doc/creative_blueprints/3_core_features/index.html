@@ -1,0 +1,81 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(4, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="w-full h-full p-10 flex flex-col">
+
+    <!-- Header + Persona chips -->
+    <div class="mb-5 flex items-start justify-between">
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase text-red-600">What's Inside</span>
+        <h2 class="text-3xl font-black text-slate-900 mt-1">Core Features</h2>
+      </div>
+      <div class="flex gap-2 mt-1 flex-shrink-0">
+        <span class="px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs font-semibold">👻 Horror Gamer</span>
+        <span class="px-3 py-1.5 rounded-full bg-slate-100 text-slate-500 text-xs font-semibold">🏆 Challenge Runner</span>
+      </div>
+    </div>
+
+    <!-- Feature grid -->
+    <div class="sl-grid grid flex-1 gap-3">
+
+      <!-- 100-Night Challenge -->
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="text-3xl">🌙</div>
+        <h3 class="text-white font-bold text-sm leading-tight">100-Night Challenge</h3>
+        <p class="text-slate-400 text-xs leading-relaxed">A strict, defined arc — night 1 is eerie, night 100 is terrifying. Survive all of them to win.</p>
+      </div>
+
+      <!-- Ghost AI Escalation -->
+      <div class="bg-red-950 rounded-2xl p-5 flex flex-col gap-3 border border-red-900">
+        <div class="text-3xl">👻</div>
+        <h3 class="text-white font-bold text-sm leading-tight">Escalating Ghost AI</h3>
+        <p class="text-red-200 text-xs leading-relaxed">More ghosts, smarter movement, new ghost types each phase — danger compounds relentlessly.</p>
+      </div>
+
+      <!-- House Fortification -->
+      <div class="bg-slate-800 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="text-3xl">🏚️</div>
+        <h3 class="text-white font-bold text-sm leading-tight">House Fortification</h3>
+        <p class="text-slate-300 text-xs leading-relaxed">Board windows, barricade doors, manage electricity and light sources to hold the line each night.</p>
+      </div>
+
+      <!-- Day-Phase Resources -->
+      <div class="bg-amber-950 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="text-3xl">🔦</div>
+        <h3 class="text-white font-bold text-sm leading-tight">Day-Phase Scavenging</h3>
+        <p class="text-amber-100 text-xs leading-relaxed">Use daylight to gather supplies. Ration carefully — nights are long and ghosts never sleep.</p>
+      </div>
+
+      <!-- Atmospheric Horror -->
+      <div class="bg-slate-900 rounded-2xl p-5 flex flex-col gap-3 border border-slate-700">
+        <div class="text-3xl">🌫️</div>
+        <h3 class="text-white font-bold text-sm leading-tight">Atmospheric Horror</h3>
+        <p class="text-slate-400 text-xs leading-relaxed">Dark forest visuals, ambient sound design, fog, and slow-burn tension — minimal UI for full immersion.</p>
+      </div>
+
+      <!-- Resource Management -->
+      <div class="bg-slate-800 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="text-3xl">📦</div>
+        <h3 class="text-white font-bold text-sm leading-tight">Resource Management</h3>
+        <p class="text-slate-300 text-xs leading-relaxed">Scarcity is the engine of tension. Every supply decision has a downstream cost.</p>
+      </div>
+
+      <!-- Score Tracking -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="text-3xl">📊</div>
+        <h3 class="text-slate-900 font-bold text-sm leading-tight">Score & Streak Tracking</h3>
+        <p class="text-slate-500 text-xs leading-relaxed">Nights survived is your score. Personal bests, streaks, and leaderboard ambition keep players returning.</p>
+      </div>
+
+      <!-- Fast Retry -->
+      <div class="bg-green-950 rounded-2xl p-5 flex flex-col gap-3">
+        <div class="text-3xl">🔄</div>
+        <h3 class="text-white font-bold text-sm leading-tight">Fast Retry Loop</h3>
+        <p class="text-green-200 text-xs leading-relaxed">Game over → back in action in seconds. The compulsion to beat your record is the core hook.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
