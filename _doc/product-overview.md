@@ -1,7 +1,7 @@
-# Product Overview — Horror Forest 100
+# Product Overview — Horror Kutty Satthan
 
 ## Name
-Horror Forest 100
+Horror Kutty Satthan
 
 ## What It Is
 A browser-based horror survival game. The player is stranded deep inside a haunted forest, sheltered in a lone house, and must survive **100 consecutive nights** against escalating ghost encounters. The game is built around a single, unambiguous win condition — outlast all 100 nights — giving it a defined challenge arc that most browser horror games lack.
