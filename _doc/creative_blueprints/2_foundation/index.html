@@ -1,0 +1,99 @@
+<style>
+.mode-landscape .sl-cols { flex-direction: row; gap: 1.5rem; }
+.mode-portrait .sl-cols { flex-direction: column; gap: 1rem; }
+.mode-landscape .sl-col { flex: 1; }
+.mode-portrait .sl-col { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="w-full h-full p-10 flex flex-col">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-xs font-bold tracking-widest uppercase text-red-600">Why This Exists</span>
+      <h2 class="text-3xl font-black text-slate-900 mt-1">The Problem. The Solution.</h2>
+    </div>
+
+    <!-- Two columns -->
+    <div class="sl-cols flex flex-1">
+
+      <!-- Problem column -->
+      <div class="sl-col bg-slate-900 rounded-2xl p-8 flex flex-col justify-between overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-40 h-40 rounded-full bg-slate-800 opacity-40 -translate-y-12 translate-x-12"></div>
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="text-xl">🫥</span>
+            <span class="text-red-400 font-bold text-xs uppercase tracking-wider">The Problem</span>
+          </div>
+          <h3 class="text-white text-lg font-bold mb-5 leading-snug">
+            Browser horror games have no payoff
+          </h3>
+          <ul class="space-y-4">
+            <li class="flex gap-3 items-start">
+              <span class="text-red-500 font-bold text-sm mt-0.5 flex-shrink-0">✗</span>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-white">One-shot jump scares</strong> — scary for 30 seconds, forgotten in five minutes
+              </p>
+            </li>
+            <li class="flex gap-3 items-start">
+              <span class="text-red-500 font-bold text-sm mt-0.5 flex-shrink-0">✗</span>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-white">Bloated survival sims</strong> — hours of setup before anything frightening happens
+              </p>
+            </li>
+            <li class="flex gap-3 items-start">
+              <span class="text-red-500 font-bold text-sm mt-0.5 flex-shrink-0">✗</span>
+              <p class="text-slate-300 text-sm leading-relaxed">
+                <strong class="text-white">No win condition</strong> — players drift away because there's nothing to actually beat
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-6 pt-5 border-t border-slate-700">
+          <p class="text-slate-400 text-sm italic">"I want to be genuinely scared — and have something to show for surviving it."</p>
+        </div>
+      </div>
+
+      <!-- Solution column -->
+      <div class="sl-col bg-red-950 rounded-2xl p-8 flex flex-col justify-between overflow-hidden relative">
+        <div class="absolute top-0 right-0 w-40 h-40 rounded-full bg-red-900 opacity-30 -translate-y-10 translate-x-10"></div>
+        <div>
+          <div class="flex items-center gap-2 mb-5">
+            <span class="text-xl">🏚️</span>
+            <span class="text-red-300 font-bold text-xs uppercase tracking-wider">The Solution</span>
+          </div>
+          <h3 class="text-white text-lg font-bold mb-5 leading-snug">
+            A horror game with a real finish line
+          </h3>
+          <ul class="space-y-4">
+            <li class="flex gap-3 items-start">
+              <span class="text-green-400 font-bold text-sm mt-0.5 flex-shrink-0">✓</span>
+              <p class="text-red-100 text-sm leading-relaxed">
+                <strong class="text-white">100-night challenge arc</strong> — a defined, beatable goal players can earn and share
+              </p>
+            </li>
+            <li class="flex gap-3 items-start">
+              <span class="text-green-400 font-bold text-sm mt-0.5 flex-shrink-0">✓</span>
+              <p class="text-red-100 text-sm leading-relaxed">
+                <strong class="text-white">Play instantly in-browser</strong> — no download, no barrier, instant dread
+              </p>
+            </li>
+            <li class="flex gap-3 items-start">
+              <span class="text-green-400 font-bold text-sm mt-0.5 flex-shrink-0">✓</span>
+              <p class="text-red-100 text-sm leading-relaxed">
+                <strong class="text-white">Escalating ghost AI</strong> — keeps nights 1 through 100 progressively terrifying
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-6">
+          <div class="bg-red-900 bg-opacity-70 rounded-xl px-5 py-3">
+            <p class="text-white text-sm font-semibold leading-relaxed">
+              The only browser horror game where surviving all 100 nights is a real achievement worth bragging about.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
