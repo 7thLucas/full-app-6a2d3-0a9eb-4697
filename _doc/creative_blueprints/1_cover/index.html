@@ -1,0 +1,62 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; height: 100%; }
+.mode-portrait .sl-layout { flex-direction: column; height: 100%; }
+.mode-landscape .sl-left { width: 46%; }
+.mode-landscape .sl-right { flex: 1; }
+.mode-portrait .sl-left { width: 100%; padding: 2rem 2rem 1.5rem; }
+.mode-portrait .sl-right { flex: 1; min-height: 180px; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex w-full h-full">
+
+    <!-- Left: Content column -->
+    <div class="sl-left bg-slate-950 flex flex-col justify-between p-12">
+      <div>
+        <div class="mb-5">
+          <span class="inline-block px-3 py-1 rounded-full bg-red-900 text-red-300 text-xs font-bold tracking-widest uppercase">
+            Horror Survival · Browser Game
+          </span>
+        </div>
+        <h1 class="font-black text-white leading-tight mb-6" style="font-size: clamp(1.9rem, 3.4vw, 2.9rem); line-height: 1.12;">
+          100 Nights.<br/>One House.<br/>Can You<br/>Survive?
+        </h1>
+        <p class="text-slate-300 leading-relaxed" style="font-size: clamp(0.82rem, 1.15vw, 1rem); max-width: 30ch;">
+          Trapped in a haunted forest. Ghosts closing in every night. Fortify your only shelter and outlast all 100 nights to win.
+        </p>
+      </div>
+
+      <div class="mt-8 flex flex-col gap-4">
+        <div class="flex gap-3">
+          <div class="bg-slate-800 rounded-xl px-4 py-2.5 flex-1 text-center">
+            <div class="text-white font-black text-lg">100</div>
+            <div class="text-slate-400 text-xs">Nights to Survive</div>
+          </div>
+          <div class="bg-red-950 rounded-xl px-4 py-2.5 flex-1 text-center border border-red-900">
+            <div class="text-red-300 font-black text-lg">∞</div>
+            <div class="text-slate-400 text-xs">Retry Loop</div>
+          </div>
+        </div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Atmospheric image -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=dark%20haunted%20forest%20at%20night%2C%20lone%20old%20house%20with%20warm%20light%20in%20window%2C%20ghostly%20white%20translucent%20figures%20among%20twisted%20dark%20trees%2C%20thick%20fog%2C%20moonlight%2C%20cinematic%20horror%2C%20atmospheric%20gothic"
+        alt="A lone haunted house in a dark fog-filled forest with ghostly silhouettes"
+        class="w-full h-full object-cover"
+      />
+      <!-- Gradient bleed into left column -->
+      <div class="absolute inset-0" style="background: linear-gradient(to right, #020617 0%, #02061720 25%, transparent 55%);"></div>
+      <!-- Night counter badge -->
+      <div class="absolute bottom-7 right-7">
+        <div class="bg-black bg-opacity-70 backdrop-blur rounded-xl px-4 py-2 flex items-center gap-2">
+          <span class="text-lg">🌙</span>
+          <span class="text-white text-sm font-bold">Night 1 of 100</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
