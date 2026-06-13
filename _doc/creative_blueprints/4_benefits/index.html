@@ -1,0 +1,82 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(2, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: 1fr; }
+.mode-landscape .sl-summary { width: 15rem; flex-shrink: 0; }
+.mode-portrait .sl-summary { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="w-full h-full p-10 flex flex-col">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-xs font-bold tracking-widest uppercase text-red-600">Why It Works</span>
+      <h2 class="text-3xl font-black text-slate-900 mt-1">Player Value &amp; Impact</h2>
+    </div>
+
+    <!-- Content row -->
+    <div class="flex gap-4 flex-1">
+
+      <!-- Metric cards grid -->
+      <div class="sl-grid grid flex-1 gap-4 content-start">
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+          <div class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Engagement Depth</div>
+          <div class="text-2xl font-black text-slate-900 mb-2">Sessions that last</div>
+          <p class="text-slate-500 text-xs leading-relaxed">A defined 100-night arc gives players a goal. Goal-driven loops produce longer, more invested sessions than open-ended screamers.</p>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+          <div class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Zero-Friction Access</div>
+          <div class="text-2xl font-black text-slate-900 mb-2">Instant, in-browser</div>
+          <p class="text-slate-500 text-xs leading-relaxed">No download, no sign-up, no barrier. Click and you're inside the forest — removing every step that kills a new player's momentum.</p>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+          <div class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Replayability</div>
+          <div class="text-2xl font-black text-slate-900 mb-2">Infinite retries</div>
+          <p class="text-slate-500 text-xs leading-relaxed">Escalating difficulty means every run feels different. The high-score loop and fast restart keep players compulsively returning to beat their record.</p>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5">
+          <div class="text-xs font-bold text-red-600 uppercase tracking-wide mb-2">Social Proof</div>
+          <div class="text-2xl font-black text-slate-900 mb-2">A badge worth sharing</div>
+          <p class="text-slate-500 text-xs leading-relaxed">"I survived all 100 nights" is a real, specific achievement. Built-in social proof drives organic word-of-mouth — zero ad spend required.</p>
+        </div>
+
+      </div>
+
+      <!-- Summary block -->
+      <div class="sl-summary bg-slate-900 rounded-2xl p-7 flex flex-col justify-between">
+        <div>
+          <div class="text-xs font-bold text-red-400 uppercase tracking-wide mb-3">The Core Bet</div>
+          <h3 class="text-white text-lg font-bold leading-snug mb-5">
+            The only browser horror game you can actually <em>beat</em>
+          </h3>
+          <ul class="space-y-3">
+            <li class="flex gap-2 items-start">
+              <span class="text-green-400 flex-shrink-0 text-xs mt-1">●</span>
+              <p class="text-slate-300 text-xs leading-relaxed">Challenge arc creates goal-driven, longer play sessions</p>
+            </li>
+            <li class="flex gap-2 items-start">
+              <span class="text-green-400 flex-shrink-0 text-xs mt-1">●</span>
+              <p class="text-slate-300 text-xs leading-relaxed">Escalation keeps the experience fresh from night 1 to 100</p>
+            </li>
+            <li class="flex gap-2 items-start">
+              <span class="text-green-400 flex-shrink-0 text-xs mt-1">●</span>
+              <p class="text-slate-300 text-xs leading-relaxed">Browser-native removes every install friction barrier</p>
+            </li>
+            <li class="flex gap-2 items-start">
+              <span class="text-green-400 flex-shrink-0 text-xs mt-1">●</span>
+              <p class="text-slate-300 text-xs leading-relaxed">Shareable win condition generates organic growth</p>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-6 pt-5 border-t border-slate-700">
+          <p class="text-slate-500 text-xs">Platform: Web Browser</p>
+          <p class="text-slate-500 text-xs mt-1">Built on QuantumByte</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
